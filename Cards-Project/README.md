@@ -1,14 +1,21 @@
 # Course project
-## Simulation of working with a list of cards
+> Simulation of working with a list of cards
 
-newDeck -> Create a list of playing cards. Essenially an array of strings
+### Files: 
+1. **main.go** - Code to create and manipulate a deck
+2. **deck.go** - Code that describes what a deck is and how it works
+3. **deck_test.go** - Code to automatically test the deck
 
-print -> Log out the contents of a deck of cards
 
-shuffle -> Shuffles all the cards in a deck 
+### Functions
+* **newDeck** -> Create a list of playing cards. Essenially an array of strings
 
-deal -> Create a 'hand' of cards
+* **print** -> Log out the contents of a deck of cards
 
-saveToFile -> Save a list of cards to a file on the local machine
+* **shuffle** -> Shuffles all the cards in a deck 
 
-newDeckFromFile -> Load a list of cards from the local machine  
+* **deal** -> Create a 'hand' of cards
+
+* **saveToFile** -> Save a list of cards to a file on the local machine
+
+* **newDeckFromFile** -> Load a list of cards from the local machine  
